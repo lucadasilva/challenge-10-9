@@ -1,7 +1,6 @@
 .caja {
     width: 800px;
     height: 800px;
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
 }
@@ -13,6 +12,12 @@
     align-items: center;
     justify-content: center;
 }
+.cuadrado__1{
+    background-color: black;
+}
+.cuadrado__2{
+    background-color: brown;
+}
 .text__main {
     font-size: 15px;
     color: white;
@@ -23,17 +28,19 @@
     .caja {
         width: 800px;
         height: 800px;
-        border: 1px solid black;
         display: flex;
         flex-direction: column;
-       
     }
-    .caja div {
+    div {
         width: 400px;
         width: 400px;
-        border: 1px solid green;
-        display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .cuadrado__1 {
+        background-color: blueviolet;
+    }
+    .cuadrado__2{
+        background-color: blue;
     }
 }
